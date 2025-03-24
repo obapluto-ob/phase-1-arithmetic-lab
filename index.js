@@ -1,17 +1,15 @@
-// Define the given variables
-let num1 = 31;
-let num2 = 2;
-let num3 = 16;
-let num4 = 6;
+// 1. Multiply two numbers to get 62
+let num1 = 2;
+let num2 = 31;
+let multiply = num1 * num2; // 2 * 31 = 62
 
-// Multiply num1 and num2 to get 62
-let multiply = num1 * num2;
+// 2. Generate a random integer greater than 0
+let random = Math.ceil(Math.random() * 10); // Ensures it's always at least 1
 
-// Generate a random integer greater than 0
-let random = Math.floor(Math.random() * 100) + 1; // Ensures it's greater than 0
+// 3. Get remainder 4 when dividing num3 by num4
+let num3 = 14;
+let num4 = 5;
+let mod = num3 % num4; // 14 % 5 = 4
 
-// Find the remainder when num3 is divided by num4 (should be 4)
-let mod = num3 % num4;
-
-// Find the highest number in a set (should return 20)
-let max = Math.max(1, 5, 10, 15, 20);
+// 4. Find the highest number in a set
+let max = Math.max(3, 9, 12, 20, 18); // Highest value is 20
